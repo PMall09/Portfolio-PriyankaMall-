@@ -1,3 +1,11 @@
 # Site settings
 name: Priyanka Mall
 title: Priyanka mall | Information Security Research Student and Analyst @ Deloitte India
+description: 
+url: https://PMall09.github.io/
+baseurl: ''
+email: priyankamall.9tn97@gmail.com
+cover: https://PMall09.github.io/img/img.png
+logo: https://PMall09.github.io/img/emojis/tech.png
+resume:
+social:
