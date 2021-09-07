@@ -10,3 +10,12 @@ const templatePath = [
   '_data/*.yml',
   '_posts/*',
 ];
+module.exports = gulp => {
+  const reloadBrowser = done => {
+    browserSync.reload();
+    done();
+  };
+  // run `jekyll build`
+  gulp.task('jekyll-build', done => {
+    return cp.spawn(jekyll, ['build'], { stdio: 'inherit' }).on('close', done);
+  });
