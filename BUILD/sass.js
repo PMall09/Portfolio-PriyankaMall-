@@ -9,3 +9,7 @@ module.exports = gulp => {
       .src(scssPath)
       .pipe(
         sass({
+includePaths: ['scss'],
+          outputStyle: 'expanded',
+        })
+      )
