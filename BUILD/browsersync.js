@@ -37,3 +37,9 @@ module.exports = gulp => {
           baseDir: '_site',
         },
       });
+      gulp.watch(scssPath, gulp.series(['sass', reloadBrowser]));
+      gulp.watch(jsPath, gulp.series(['scripts', reloadBrowser]));
+      gulp.watch(templatePath, gulp.task('jekyll-rebuild'));
+    })
+  );
+};
