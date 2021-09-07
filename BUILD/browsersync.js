@@ -29,3 +29,11 @@ module.exports = gulp => {
   });
   // Rebuild Jekyll then reload the page
   gulp.task('jekyll-rebuild', gulp.series(['jekyll-dev', reloadBrowser]));
+  gulp.task(
+    'serve',
+    gulp.series('jekyll-dev', () => {
+      browserSync.init({
+        server: {
+          baseDir: '_site',
+        },
+      });
