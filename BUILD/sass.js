@@ -19,3 +19,8 @@ includePaths: ['scss'],
           cascade: false,
         })
       )
+ .pipe(cleanCSS({ compatibility: 'ie8' }))
+      .pipe(gulp.dest(destPath))
+      .pipe(gulp.dest('css'));
+  });
+};
