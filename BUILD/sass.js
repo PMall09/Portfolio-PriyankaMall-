@@ -13,3 +13,9 @@ includePaths: ['scss'],
           outputStyle: 'expanded',
         })
       )
+.pipe(
+        prefix({
+          overrideBrowserslist: ['last 2 versions'],
+          cascade: false,
+        })
+      )
