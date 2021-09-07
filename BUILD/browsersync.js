@@ -27,3 +27,5 @@ module.exports = gulp => {
       })
       .on('close', done);
   });
+  // Rebuild Jekyll then reload the page
+  gulp.task('jekyll-rebuild', gulp.series(['jekyll-dev', reloadBrowser]));
