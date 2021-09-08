@@ -6,3 +6,4 @@
       flex-wrap: wrap;
     }
  &__category {
+     @include weird-medium {
