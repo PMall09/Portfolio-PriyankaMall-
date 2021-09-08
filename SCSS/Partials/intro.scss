@@ -15,3 +15,51 @@
   @include mobile {
     padding: 70px 50px;
   }
+&__hello, &__tagline {
+    font-size: 2.5rem;
+    @include desktop {
+      font-size: 2.25rem;
+    }
+    @include tablet {
+      font-size: 2rem;
+    }
+    @include phablet {
+      font-size: 1.75rem;
+    }
+    @include small-mobile {
+      font-size: 1.5rem;
+    }
+    @include tiny-mobile {
+      font-size: 1.4rem;
+    }
+    .emoji {
+      width: 40px;
+      height: 40px;
+      @include desktop {
+        width: 35px;
+        height: 35px;
+      }
+      @include tablet {
+        width: 30px;
+        height: 30px;
+      }
+      @include small-mobile {
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+  &__hello {
+    font-weight: 300;
+    .wave-hand {
+      background-image: url('../img/emojis/wave.png');
+      margin-left: 10px;
+      cursor: pointer;
+
+      &.animated {
+        animation-duration: 1s;
+        animation-fill-mode: both;
+      }
+      &.wave {
+        animation-name: wave;
+      }
