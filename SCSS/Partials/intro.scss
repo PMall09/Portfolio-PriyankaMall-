@@ -104,3 +104,31 @@
     @include phablet {
       font-size: 1rem;
     }
+   .emoji {
+      &.pointer {
+        background-image: url('../img/emojis/pointright.png');
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        vertical-align: text-bottom;
+        @include phablet {
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+    .highlight-link {
+      @include transition;
+      font-weight: 400;
+      text-decoration: none;
+      display: inline-block;
+      padding: 2px 3px;
+      text-decoration: none;
+      box-shadow: inset 0 -3px 0 $blue;
+      &:hover {
+        box-shadow: inset 0 -33px 0 0 $blue;
+        color: $white;
+      }
+    }
+  }
+}
