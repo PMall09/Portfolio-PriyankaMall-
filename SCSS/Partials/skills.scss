@@ -2,3 +2,4 @@
   .skillz {
     display: flex;
     justify-content: space-between;
+    @include weird-medium {
