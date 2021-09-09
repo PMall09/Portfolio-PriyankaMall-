@@ -31,3 +31,8 @@ $tiny-mobile-width: 330px;
 @mixin transition {
   transition: all 0.2s ease-in-out;
 }
+@mixin thirteen {
+  @media screen and (max-width: #{$thirteen-inch}) {
+    @content;
+  }
+}
