@@ -46,3 +46,8 @@ $tiny-mobile-width: 330px;
     @content;
   }
 }
+@mixin tablet {
+  @media screen and (max-width: #{$tablet-width}) {
+    @content;
+  }
+}
