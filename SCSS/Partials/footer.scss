@@ -12,3 +12,11 @@
   @include mobile {
     padding: 50px 30px;
   }
+  &__copyright {
+    font-weight: 700;
+    width: 200px;
+    @include weird-medium {
+      width: auto;
+      text-align: center;
+      margin-bottom: 25px;
+    }
