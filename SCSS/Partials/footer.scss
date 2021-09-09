@@ -40,3 +40,14 @@
       display: flex;
       justify-content: center;
     }
+    a {
+      position: relative;
+      display: inline-block;
+      color: $blue !important;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin: 0 15px;
+      outline: none;
+      @include desktop {
+        margin: 0 10px;
+      }
