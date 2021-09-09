@@ -51,3 +51,8 @@ $tiny-mobile-width: 330px;
     @content;
   }
 }
+@mixin weird-medium {
+  @media screen and (max-width: #{$weird-not-tablet-width}) {
+    @content;
+  }
+}
