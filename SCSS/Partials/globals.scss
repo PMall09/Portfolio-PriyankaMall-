@@ -71,3 +71,8 @@ $tiny-mobile-width: 330px;
     @content;
   }
 }
+@mixin tiny-mobile {
+  @media screen and (max-width: #{$tiny-mobile-width}) {
+    @content;
+  }
+}
