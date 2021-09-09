@@ -41,3 +41,8 @@ $tiny-mobile-width: 330px;
     @content;
   }
 }
+@mixin little-desktop {
+  @media screen and (max-width: #{$little-desktop}) {
+    @content;
+  }
+}
