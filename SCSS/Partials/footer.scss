@@ -35,3 +35,8 @@
       vertical-align: text-bottom;
     }
   }
+  &__links {
+    @include weird-medium {
+      display: flex;
+      justify-content: center;
+    }
