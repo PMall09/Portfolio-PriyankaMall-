@@ -6,3 +6,9 @@
   @include desktop {
     padding: 50px;
   }
+  @include weird-medium {
+    display: block;
+  }
+  @include mobile {
+    padding: 50px 30px;
+  }
