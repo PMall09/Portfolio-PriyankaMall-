@@ -1,7 +1,7 @@
 {
   "name": "priyankamall.com",
   "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
+  "description": "Information Security research student with experienced working in Cyber and Network Security focused on lightweight cryptographic primitives",
   "repository": {
     "type": "git",
     "url": "https://github.com/PMall09/PMall09.github.io"
@@ -12,7 +12,7 @@
     "start": "gulp serve --watch",
     "build": "gulp build"
   },
-  "author": "Brittany Chiang",
+  "author": "Priyanka Mall",
   "license": "ISC",
   "devDependencies": {
     "@nuscout/eslint-config": "^0.2.1",
