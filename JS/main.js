@@ -41,7 +41,6 @@ $(function() {
       hand.classList.remove('wave');
     }, 2000);
   }
-
   setTimeout(function() {
     waveOnLoad();
   }, 1000);
