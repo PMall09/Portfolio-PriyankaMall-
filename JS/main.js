@@ -20,7 +20,6 @@ $(function() {
   const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
-
   window.addEventListener(
     'scroll',
     function() {
