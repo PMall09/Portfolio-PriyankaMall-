@@ -44,7 +44,6 @@ $(function() {
   setTimeout(function() {
     waveOnLoad();
   }, 1000);
-
   hand.addEventListener('mouseover', function() {
     hand.classList.add('wave');
   });
