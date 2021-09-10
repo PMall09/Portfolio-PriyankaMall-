@@ -17,7 +17,6 @@ $(function() {
       body.classList.add('night');
     }
   });
-
   const introHeight = document.querySelector('.intro').offsetHeight;
   const topButton = document.getElementById('top-button');
   const $topButton = $('#top-button');
