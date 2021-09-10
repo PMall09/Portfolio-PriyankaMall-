@@ -9,7 +9,6 @@ $(function() {
     input.checked = true;
     body.classList.add('night');
   }
-
   toggle.addEventListener('click', function() {
     const isChecked = input.checked;
     if (isChecked) {
