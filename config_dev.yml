@@ -1,1 +1,43 @@
+# Site settings
+name: Priyanka Mall
+title: Priyanka Mall | Information Security Research
+description: Cyber and Information Security research student with experienced working in information technology and services industry focused on Cyber, information and Network Security
+url: https://PMall09.github.io/
+baseurl: ''
+email: priyankamall.9tn97@gmail.com
+cover: https://PMall09.github.io/img/og.png
+logo: https://PMall09.github.io/img/emojis/technologist.png
+resume: https://PMall09.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:priyankamall.9tn97@gmail.com
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?hl=en&user=Y2xabEMAAAAJ
+  - title: instagram
+    url: https://www.instagram.com/priyanka.m09
+  - title: github
+    url: https://github.com/PMall09
+  - title: linkedin
+    url: https://www.linkedin.com/in/priyankamall
 
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
