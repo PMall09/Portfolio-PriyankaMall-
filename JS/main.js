@@ -5,7 +5,6 @@ $(function() {
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
   const input = document.getElementById('switch');
-
   if (night) {
     input.checked = true;
     body.classList.add('night');
