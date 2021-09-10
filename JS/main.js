@@ -34,9 +34,7 @@ $(function() {
   topButton.addEventListener('click', function() {
     $('html, body').animate({ scrollTop: 0 }, 500);
   });
-
   const hand = document.querySelector('.emoji.wave-hand');
-
   function waveOnLoad() {
     hand.classList.add('wave');
     setTimeout(function() {
