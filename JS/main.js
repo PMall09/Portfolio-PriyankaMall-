@@ -60,7 +60,6 @@ $(function() {
     scale: 1,
     viewFactor: 0.3,
   });
-
   sr.reveal('.background');
   sr.reveal('.skills');
   sr.reveal('.experience', { viewFactor: 0.2 });
